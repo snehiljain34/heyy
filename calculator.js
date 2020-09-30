@@ -30,7 +30,7 @@
       var weight=Number(req.body.weight);
       var bmi= weight/(height*height);
 
-      res.send("Your BMI is: "+bmi);
+      res.send("Your BMI is and it will be finest, you can be assured: "+bmi);
   });
 
   app.listen(3000, function(){
